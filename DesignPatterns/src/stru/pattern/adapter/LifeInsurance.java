@@ -1,5 +1,13 @@
 package stru.pattern.adapter;
 
+/**
+ * 
+ * @author gpant
+ *
+ *
+ *         Adaptee
+ *
+ */
 public class LifeInsurance {
 
 	private double policyAmount;
