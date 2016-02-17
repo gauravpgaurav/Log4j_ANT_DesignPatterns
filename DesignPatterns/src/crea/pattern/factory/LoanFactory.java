@@ -15,6 +15,7 @@ public class LoanFactory {
 
 	public static LoanAccount getInstance(LoanType type) {
 		return getLoanAccount(type);
+		
 	}
 
 	private static LoanAccount getLoanAccount(LoanType type) {

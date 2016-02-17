@@ -1,5 +1,7 @@
 package crea.pattern.factory;
 
+import java.util.logging.Logger;
+
 /**
  * 
  * @author gpant
@@ -14,6 +16,9 @@ public abstract class LoanAccount {
 	protected LoanAccount(double rateOfInterest) {
 
 		this.rateOfInterest = rateOfInterest;
+		Logger log = Logger.getLogger(this.getClass().getName());
+		log.info("Super Class Initiated");
+		
 	}
 
 	public abstract double calculateEMI(double loanAmount, double tenure);
