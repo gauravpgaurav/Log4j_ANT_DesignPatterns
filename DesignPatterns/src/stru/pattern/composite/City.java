@@ -33,7 +33,9 @@ public class City implements Profitable {
 
 	@Override
 	public void removeLeaf(Profitable child) {
-		// TODO Auto-generated method stub
+
+		if (child instanceof Store)
+			stores.remove(child);
 
 	}
 

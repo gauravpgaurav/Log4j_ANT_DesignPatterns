@@ -34,7 +34,8 @@ public class State implements Profitable {
 
 	@Override
 	public void removeLeaf(Profitable child) {
-		// TODO Auto-generated method stub
+		if (child instanceof City)
+			cities.remove(child);
 
 	}
 
