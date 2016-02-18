@@ -17,7 +17,7 @@ public class Client {
 		City gurgaon = new City("Gurgaon");
 		gurgaon.addLeaf(s1);
 		gurgaon.addLeaf(s2);
-		gurgaon.addLeaf(s3);
+		
 		System.out.println("Gurgaon Collection " + gurgaon.getProfit());
 
 		State state = new State("State");
