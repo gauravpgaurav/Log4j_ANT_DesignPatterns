@@ -27,7 +27,7 @@ public class City implements Profitable {
 	@Override
 	public void addLeaf(Profitable child) {
 
-		if(child instanceof Store)
+		if (child instanceof Store)
 			stores.add(child);
 	}
 
