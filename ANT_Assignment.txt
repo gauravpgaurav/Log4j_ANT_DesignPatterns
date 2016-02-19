@@ -1,0 +1,11 @@
+ANT build
+1) Create a Source Folder
+2) Copy/Add Java Files from more than one Project
+3) Create following Tasks -
+	3.1) Compile
+	3.2) Jar
+	3.3) Java Doc (Independent Task)
+	3.4) Run
+4) Run Task is based Jar and Compile
+5) Execute the build and check it works properly
+	
